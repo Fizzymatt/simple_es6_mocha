@@ -1,0 +1,13 @@
+version: '2'
+services:
+
+
+  node-mocha:
+    container_name: node-mocha
+    image: node-mocha:latest
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./src:/usr/src
+    command: /bin/ash -c "npm install; npm run test;" 

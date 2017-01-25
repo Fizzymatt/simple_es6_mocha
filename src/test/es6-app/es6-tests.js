@@ -2,7 +2,7 @@
 import * as chai from 'chai';
 const expect = chai.expect;
 
-import ClassOne from '../../../app/one.js';
+import ClassOne from '../../app/one.js';
 
 describe('the "one" class', () => {
 

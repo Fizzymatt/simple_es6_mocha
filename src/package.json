@@ -11,7 +11,7 @@
     "test": "test"
   },
   "scripts": {
-    "test": "mocha --require babel-polyfill --compilers js:babel-register mocha-tests/test/index.js"
+    "test": "mocha --require babel-polyfill --compilers js:babel-register test/index.js"
   },
   "author": "",
   "license": "ISC",
