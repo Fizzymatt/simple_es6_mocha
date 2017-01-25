@@ -22,7 +22,7 @@ When you're done, you can remove the Docker image with
 docker rmi node-mocha:latest
 ```
 
-### Running locally (without Docker and Docker Compose)
+### Running locally (without Docker)
 
 1. Install **NodeJs** (this was tested on v6.7.0) and **NPM**
 2. Clone the repo
