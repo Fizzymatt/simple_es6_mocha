@@ -7,9 +7,7 @@ import ClassOne from '../../app/one.js';
 describe('the "one" class', () => {
 
     it('has method "run_getEight()"', () => {
-        expect(
-            new ClassOne().run_getEight()
-        ).to.not.equal(undefined);
+        expect(new ClassOne()).to.respondTo('run_getEight');
     });
 
     it('has method "run_multiplyBySeven()" that returns 14', () => {
